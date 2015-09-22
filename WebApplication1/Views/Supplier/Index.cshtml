@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewBag.Title = "บริษัท";
+}
+
+<div class="form-horizontal">
+    <table id="grid_supplier"></table>
+    <div id="paper_supplier"></div>
+</div>
+
+@Html.Partial("SupplierModal")
+@Html.Partial("DeleteSupplierModal")
+
+@section css{
+    @Styles.Render("~/Content/jqgrid/css")
+}
+
+@section scripts{
+    @Scripts.Render("~/bundles/jqgrid")
+    <script type="text/javascript">
+        var Supplier = {};
+        var supplier = null;
+        $(document).ready(function () {
+            supplier = new Supplier.Grid();
+            supplier.getUrl = '@Url.Action("Get")';
+            supplier.createUrl = '@Url.Action("AjaxCreate")';
+            supplier.editUrl = '@Url.Action("AjaxEdit")';
+            supplier.deleteUrl = '@Url.Action("AjaxDelete")';
+            supplier.init();
+        });
+    </script>
+
+    @Scripts.Render("~/bundles/supplier")
+}

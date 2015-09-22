@@ -1,0 +1,22 @@
+﻿@model Services.Models.SupplierModel
+
+<form id="delete_supplier_form" method="post" action="" role="form">
+    <div class="modal fade" id="delete_supplier_modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h3 class="modal-title">ลบข้อมูล</h3>
+                </div>
+                <div class="modal-body">
+                    @Html.HiddenFor(model => model.Id)
+                    <span>คุณต้องการลบข้อมูลหรือไม่ ?</span>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-sm btn-success">ตกลง</button>
+                    <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">ยกเลิก</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

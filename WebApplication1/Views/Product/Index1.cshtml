@@ -1,0 +1,23 @@
+﻿@model WebApplication1.Models.ProductModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<h2>Product view</h2>
+
+@*@{
+    var func = new System.Linq.Expressions.Expression<Func<WebApplication1.Models.ProductModel, int>>(delegate(WebApplication1.Models.ProductModel m) { return m.Id; });
+}*@
+
+<div>@Html.DisplayFor(m => m.Id)</div>
+<div>@Html.DisplayFor(m => m.Name)</div>
+
+@{
+    var dateTime = ViewBag.DateTime.ToString("dd/MM/yyyy");
+}
+
+<div>@dateTime</div>
+

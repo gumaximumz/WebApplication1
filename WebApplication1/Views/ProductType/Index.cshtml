@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "ประเภทสินค้า";
+}
+
+<div class="form-horizontal">
+    <table id="grid_productType"></table>
+    <div id="pager_productType"></div>
+</div>
+
+@Html.Partial("ProductTypeModal")
+@Html.Partial("DeleteTypeModal")
+
+@section css{
+
+    @Styles.Render("~/Content/jqgrid/css")
+}
+
+@section scripts{
+    @Scripts.Render("~/bundles/jqgrid")
+    <script type="text/javascript">
+        var ProductType = {};
+        var producttype = null;
+        $(document).ready(function () {
+            producttype = new ProductType.Grid();
+            producttype.getUrl = '@Url.Action("Get")';
+            producttype.createUrl = '@Url.Action("AjaxCreate")';
+            producttype.editUrl = '@Url.Action("AjaxEdit")';
+            producttype.deleteUrl = '@Url.Action("AjaxDelete")';
+            producttype.init();
+        });
+        
+    </script>
+
+    @Scripts.Render("~/bundles/productType")
+}
+

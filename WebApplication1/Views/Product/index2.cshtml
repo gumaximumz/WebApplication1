@@ -1,0 +1,31 @@
+﻿<div class="form-horizontal" style="padding: 10px;">
+    @Html.DropDownList("ProductTypeDropDown")
+    @Html.DropDownList("SupplierDropDown")
+    <table id="grid"></table>
+    <div id="pager"></div>
+</div>
+
+@Html.Partial("ProductModal")
+@Html.Partial("DeleteModal")
+
+@section css{
+    @*@Styles.Render("~/Content/themes/base/css")*@
+    @Styles.Render("~/Content/jqgrid/css")
+}
+
+@section scripts{
+    @Scripts.Render("~/bundles/jqgrid")
+    @Scripts.Render("~/bundles/product")
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var product = new Product();
+            product.getUrl = '@Url.Action("Get")';
+            product.createUrl = '@Url.Action("AjaxCreate")';
+            product.editUrl = '@Url.Action("AjaxEdit")';
+            product.deleteUrl = '@Url.Action("AjaxDelete")';
+
+            product.init();
+        });
+    </script>
+}

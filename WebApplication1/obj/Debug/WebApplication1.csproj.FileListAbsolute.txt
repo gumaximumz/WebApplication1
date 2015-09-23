@@ -142,3 +142,39 @@ E:\Work\WebApplication1\WebApplication1\bin\ExtensionsAndHelpers.pdb
 E:\Work\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
 E:\Work\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
 E:\Work\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+E:\New folder\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+E:\New folder\WebApplication1\WebApplication1\bin\WebApplication1.dll
+E:\New folder\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+E:\New folder\WebApplication1\WebApplication1\bin\Antlr3.Runtime.dll
+E:\New folder\WebApplication1\WebApplication1\bin\Base.dll
+E:\New folder\WebApplication1\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+E:\New folder\WebApplication1\WebApplication1\bin\Newtonsoft.Json.dll
+E:\New folder\WebApplication1\WebApplication1\bin\Services.dll
+E:\New folder\WebApplication1\WebApplication1\bin\System.Web.Helpers.dll
+E:\New folder\WebApplication1\WebApplication1\bin\System.Web.Mvc.dll
+E:\New folder\WebApplication1\WebApplication1\bin\System.Web.Optimization.dll
+E:\New folder\WebApplication1\WebApplication1\bin\System.Web.Razor.dll
+E:\New folder\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.dll
+E:\New folder\WebApplication1\WebApplication1\bin\System.Web.WebPages.dll
+E:\New folder\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.dll
+E:\New folder\WebApplication1\WebApplication1\bin\WebGrease.dll
+E:\New folder\WebApplication1\WebApplication1\bin\Data.dll
+E:\New folder\WebApplication1\WebApplication1\bin\AutoMapper.dll
+E:\New folder\WebApplication1\WebApplication1\bin\ExtensionsAndHelpers.dll
+E:\New folder\WebApplication1\WebApplication1\bin\Services.pdb
+E:\New folder\WebApplication1\WebApplication1\bin\Base.pdb
+E:\New folder\WebApplication1\WebApplication1\bin\System.Web.Helpers.xml
+E:\New folder\WebApplication1\WebApplication1\bin\System.Web.Mvc.xml
+E:\New folder\WebApplication1\WebApplication1\bin\System.Web.Optimization.xml
+E:\New folder\WebApplication1\WebApplication1\bin\System.Web.Razor.xml
+E:\New folder\WebApplication1\WebApplication1\bin\System.Web.WebPages.xml
+E:\New folder\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.xml
+E:\New folder\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.xml
+E:\New folder\WebApplication1\WebApplication1\bin\Antlr3.Runtime.pdb
+E:\New folder\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
+E:\New folder\WebApplication1\WebApplication1\bin\Data.pdb
+E:\New folder\WebApplication1\WebApplication1\bin\AutoMapper.xml
+E:\New folder\WebApplication1\WebApplication1\bin\ExtensionsAndHelpers.pdb
+E:\New folder\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+E:\New folder\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+E:\New folder\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb

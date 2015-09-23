@@ -37,3 +37,16 @@ C:\Users\Hot\Documents\Visual Studio 2015\Projects\WebApplication1\Services\bin\
 C:\Users\Hot\Documents\Visual Studio 2015\Projects\WebApplication1\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
 C:\Users\Hot\Documents\Visual Studio 2015\Projects\WebApplication1\Services\obj\Debug\Services.dll
 C:\Users\Hot\Documents\Visual Studio 2015\Projects\WebApplication1\Services\obj\Debug\Services.pdb
+E:\New folder\WebApplication1\Services\bin\Debug\Services.dll
+E:\New folder\WebApplication1\Services\bin\Debug\Services.pdb
+E:\New folder\WebApplication1\Services\bin\Debug\AutoMapper.dll
+E:\New folder\WebApplication1\Services\bin\Debug\Base.dll
+E:\New folder\WebApplication1\Services\bin\Debug\Data.dll
+E:\New folder\WebApplication1\Services\bin\Debug\ExtensionsAndHelpers.dll
+E:\New folder\WebApplication1\Services\bin\Debug\Data.pdb
+E:\New folder\WebApplication1\Services\bin\Debug\AutoMapper.xml
+E:\New folder\WebApplication1\Services\bin\Debug\Base.pdb
+E:\New folder\WebApplication1\Services\bin\Debug\ExtensionsAndHelpers.pdb
+E:\New folder\WebApplication1\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+E:\New folder\WebApplication1\Services\obj\Debug\Services.dll
+E:\New folder\WebApplication1\Services\obj\Debug\Services.pdb

@@ -50,3 +50,16 @@ E:\New folder\WebApplication1\Services\bin\Debug\ExtensionsAndHelpers.pdb
 E:\New folder\WebApplication1\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
 E:\New folder\WebApplication1\Services\obj\Debug\Services.dll
 E:\New folder\WebApplication1\Services\obj\Debug\Services.pdb
+D:\Test project\WebApplication1\Services\bin\Debug\Services.dll
+D:\Test project\WebApplication1\Services\bin\Debug\Services.pdb
+D:\Test project\WebApplication1\Services\bin\Debug\AutoMapper.dll
+D:\Test project\WebApplication1\Services\bin\Debug\Base.dll
+D:\Test project\WebApplication1\Services\bin\Debug\Data.dll
+D:\Test project\WebApplication1\Services\bin\Debug\ExtensionsAndHelpers.dll
+D:\Test project\WebApplication1\Services\bin\Debug\Data.pdb
+D:\Test project\WebApplication1\Services\bin\Debug\AutoMapper.xml
+D:\Test project\WebApplication1\Services\bin\Debug\Base.pdb
+D:\Test project\WebApplication1\Services\bin\Debug\ExtensionsAndHelpers.pdb
+D:\Test project\WebApplication1\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+D:\Test project\WebApplication1\Services\obj\Debug\Services.dll
+D:\Test project\WebApplication1\Services\obj\Debug\Services.pdb

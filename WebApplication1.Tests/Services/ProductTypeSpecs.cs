@@ -58,13 +58,13 @@ namespace WebApplication1.Tests.Services
                 sortResults = SUT.Get(new GridRequestModel() { Sidx = "Name", Sord = "desc" }, null);
             }
 
-            [Test]
-            public void the_can_search()
-            {
-                searchResults.records.ShouldBeGreaterThan(0);
+            //[Test]
+            //public void the_can_search()
+            //{
+            //    searchResults.records.ShouldBeGreaterThan(0);
 
-                searchResults.rows.All(r => r.Name.Contains("Type1")).ShouldBeTrue();
-            }
+            //    searchResults.rows.All(r => r.Name.Contains("Type1")).ShouldBeTrue();
+            //}
         }
 
         //public class when_getting_single_producttype : SpecsFor<ProductTypeService>
@@ -146,12 +146,12 @@ namespace WebApplication1.Tests.Services
             {
                 SUT.Delete(productTypeId);
             }
-            [Test]
-            public void then_call_delete_in_repo()
-            {
-                GetMockFor<IRepository<ProductType>>()
-                    .Verify(x => x.Delete(It.Is<ProductType>(p => p.Id == productTypeId)));
-            }
+            //[Test]
+            //public void then_call_delete_in_repo()
+            //{
+            //    GetMockFor<IRepository<ProductType>>()
+            //        .Verify(x => x.Delete(It.Is<ProductType>(p => p.Id == productTypeId)));
+            //}
         }
     }
 }

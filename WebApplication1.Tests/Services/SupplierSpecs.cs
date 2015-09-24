@@ -58,7 +58,8 @@ namespace WebApplication1.Tests.Services
             public void the_can_search()
             {
                 searchResults.records.ShouldBeGreaterThan(0);
-                searchResults.rows.All(r => r.Name.Contains("Supplier1")).ShouldBeTrue();
+                searchResults.rows.All(r => r.Name.Contains("Supplier")).ShouldBeTrue();
+
             }
         }
         public class when_create_supplier : SpecsFor<SupplierService>

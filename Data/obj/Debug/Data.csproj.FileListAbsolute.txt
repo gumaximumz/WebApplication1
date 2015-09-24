@@ -12,3 +12,8 @@ C:\Users\Hot\Documents\Visual Studio 2015\Projects\WebApplication1\Data\bin\Debu
 C:\Users\Hot\Documents\Visual Studio 2015\Projects\WebApplication1\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
 C:\Users\Hot\Documents\Visual Studio 2015\Projects\WebApplication1\Data\obj\Debug\Data.dll
 C:\Users\Hot\Documents\Visual Studio 2015\Projects\WebApplication1\Data\obj\Debug\Data.pdb
+D:\Test project\WebApplication1\Data\bin\Debug\Data.dll
+D:\Test project\WebApplication1\Data\bin\Debug\Data.pdb
+D:\Test project\WebApplication1\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+D:\Test project\WebApplication1\Data\obj\Debug\Data.dll
+D:\Test project\WebApplication1\Data\obj\Debug\Data.pdb

@@ -58,13 +58,13 @@ namespace WebApplication1.Tests.Services
                 sortResults = SUT.Get(new GridRequestModel() { Sidx = "Name", Sord = "desc" }, null);
             }
 
-            //[Test]
-            //public void the_can_search()
-            //{
-            //    searchResults.records.ShouldBeGreaterThan(0);
+            [Test]
+            public void the_can_search()
+            {
+                searchResults.records.ShouldBeGreaterThan(0);
 
-            //    searchResults.rows.All(r => r.Name.Contains("Type1")).ShouldBeTrue();
-            //}
+                searchResults.rows.All(r => r.Name.Contains("Type1")).ShouldBeTrue();
+            }
         }
 
         //public class when_getting_single_producttype : SpecsFor<ProductTypeService>
